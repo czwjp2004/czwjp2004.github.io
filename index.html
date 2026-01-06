@@ -11,77 +11,78 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header with photo and intro -->
-        <header class="header">
-            <div class="profile-section">
+        <div class="main-layout">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
                 <img src="assets/profile.jpg" alt="Junpeng Wang" class="profile-photo">
-                <div class="profile-text">
+                <div class="contact-section">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:jw901@duke.edu">jw901@duke.edu</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">GitHub:</span>
+                        <a href="https://github.com/czwjp2004" target="_blank">czwjp2004</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">LinkedIn:</span>
+                        <a href="https://www.linkedin.com/in/junpeng-wang-7321b0382/" target="_blank">Profile</a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Right Content -->
+            <main class="content">
+                <!-- Header -->
+                <header class="header">
                     <h1 class="name">Junpeng Wang</h1>
                     <p class="title">Undergraduate Student</p>
                     <p class="affiliation">Duke Kunshan University & Duke University</p>
                     <p class="degree">B.S. in Applied Mathematics and Computational Sciences / Computer Science</p>
-                    <div class="contact-info">
-                        <a href="mailto:jw901@duke.edu">jw901@duke.edu</a>
-                        <span class="separator">•</span>
-                        <a href="https://github.com/czwjp2004" target="_blank">GitHub</a>
-                        <span class="separator">•</span>
-                        <a href="https://www.linkedin.com/in/junpeng-wang-7321b0382/" target="_blank">LinkedIn</a>
+                </header>
+
+                <!-- About Section -->
+                <section class="section">
+                    <h2>About Me</h2>
+                    <p>
+                        I am an undergraduate student in the Dual-Degree program between Duke Kunshan University and Duke University, 
+                        pursuing a B.S. in Applied Mathematics and Computational Sciences with a focus on Computer Science. 
+                        My research interests lie at the intersection of <strong>Large Language Models (LLMs)</strong> and <strong>Planning</strong>.
+                    </p>
+                    <p>
+                        Recently, I completed an internship at <strong>Xiaomi's L3 Autonomous Driving team</strong>, where I worked on 
+                        motion planning algorithms. I also work as a remote research assistant at the <strong>Chinese Academy of Sciences, 
+                        Shenzhen Institutes of Advanced Technology (SIAT)</strong>, focusing on multimodal large models and video understanding. 
+                        Additionally, I am actively involved in the <strong>FrontierCS</strong> project, contributing to benchmark development 
+                        for evolving AI systems.
+                    </p>
+                </section>
+
+                <!-- Selected Publications -->
+                <section class="section">
+                    <h2>Selected Publications</h2>
+                    <div class="publication">
+                        <p class="pub-title">FrontierCS: Evolving Challenges for Evolving Intelligence</p>
+                        <p class="pub-authors">Qiuyang Mang et al.</p>
+                        <p class="pub-venue"><em>arXiv:2512.15699</em>, 2025</p>
+                        <p class="pub-links">
+                            <a href="https://arxiv.org/abs/2512.15699" target="_blank">[Paper]</a>
+                        </p>
                     </div>
-                </div>
-            </div>
-        </header>
+                </section>
 
-        <!-- About Section -->
-        <section class="section">
-            <h2>About Me</h2>
-            <p>
-                I am an undergraduate student in the Dual-Degree program between Duke Kunshan University and Duke University, 
-                pursuing a B.S. in Applied Mathematics and Computational Sciences with a focus on Computer Science. 
-                My interests lie at the intersection of <strong>Large Language Models (LLMs)</strong> and <strong>Planning</strong>, 
-                exploring how AI systems can better understand, reason, and make decisions in complex environments.
-            </p>
-            <p>
-                Recently, I completed an internship at <strong>Xiaomi's L3 Autonomous Driving team</strong>, where I worked on 
-                planning algorithms and contributed to a POMDP-based framework for navigation under uncertainty. I also work 
-                as a remote research assistant at the <strong>Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology (SIAT)</strong>, 
-                focusing on multimodal large models and instructional video understanding. Additionally, I am actively involved 
-                in the <strong>FrontierCS</strong> project, contributing to the development of evolving AI benchmarks.
-            </p>
-        </section>
-
-        <!-- News Section -->
-        <section class="section">
-            <h2>Recent News</h2>
-            <ul class="news-list">
-                <li><span class="news-date">[Dec 2024]</span> Co-authored paper "FrontierCS: Evolving Challenges for Evolving Intelligence" published on arXiv.</li>
-                <li><span class="news-date">[Nov 2024]</span> Our team received Bronze medal at the 49th ICPC EC Final in Xi'an.</li>
-                <li><span class="news-date">[Aug 2025]</span> Started research position at CAS SIAT, working on multimodal LLMs and video understanding.</li>
-                <li><span class="news-date">[May 2025]</span> Joined Xiaomi's L3 Autonomous Driving team as a Planning Intern.</li>
-            </ul>
-        </section>
-
-        <!-- Selected Publications -->
-        <section class="section">
-            <h2>Selected Publications</h2>
-            <div class="publication">
-                <p class="pub-title">FrontierCS: Evolving Challenges for Evolving Intelligence</p>
-                <p class="pub-authors">Qiuyang Mang et al.</p>
-                <p class="pub-venue"><em>arXiv:2512.15699</em>, 2025</p>
-                <p class="pub-links">
-                    <a href="https://arxiv.org/abs/2512.15699" target="_blank">[Paper]</a>
-                </p>
-            </div>
-        </section>
-
-        <!-- Honors & Awards -->
-        <section class="section">
-            <h2>Honors & Awards</h2>
-            <ul class="awards-list">
-                <li><strong>Gold Medal</strong>, The 48th ICPC Nanjing Regional (2023)</li>
-                <li><strong>Silver Medal</strong>, The 49th ICPC Nanjing Regional (2024)</li>
-                <li><strong>Bronze Medal</strong>, The 49th ICPC EC Final, Xi'an (2024)</li>
-            </ul>
-        </section>
+                <!-- Honors & Awards -->
+                <section class="section">
+                    <h2>Honors & Awards</h2>
+                    <ul class="awards-list">
+                        <li><strong>Gold Medal</strong>, The 48th ICPC Nanjing Regional (2023)</li>
+                        <li><strong>Silver Medal</strong>, The 49th ICPC Nanjing Regional (2024)</li>
+                        <li><strong>Bronze Medal</strong>, The 49th ICPC EC Final, Xi'an (2024)</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
 
         <!-- Footer -->
         <footer class="footer">

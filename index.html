@@ -7,187 +7,86 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
+        <!-- Header with photo and intro -->
         <header class="header">
-            <h1 class="name">Junpeng Wang</h1>
-            <div class="contact-links">
-                <a href="mailto:jw901@duke.edu" class="contact-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    Email
-                </a>
-                <a href="tel:+8613401369887" class="contact-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    Phone
-                </a>
-                <a href="https://github.com/czwjp2004" class="contact-link" target="_blank" rel="noopener">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                    </svg>
-                    GitHub
-                </a>
-                <a href="https://www.linkedin.com/in/junpeng-wang-7321b0382/" class="contact-link" target="_blank" rel="noopener">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                    </svg>
-                    LinkedIn
-                </a>
+            <div class="profile-section">
+                <img src="assets/profile.jpg" alt="Junpeng Wang" class="profile-photo">
+                <div class="profile-text">
+                    <h1 class="name">Junpeng Wang</h1>
+                    <p class="title">Undergraduate Student</p>
+                    <p class="affiliation">Duke Kunshan University & Duke University</p>
+                    <p class="degree">B.S. in Applied Mathematics and Computational Sciences / Computer Science</p>
+                    <div class="contact-info">
+                        <a href="mailto:jw901@duke.edu">jw901@duke.edu</a>
+                        <span class="separator">•</span>
+                        <a href="https://github.com/czwjp2004" target="_blank">GitHub</a>
+                        <span class="separator">•</span>
+                        <a href="https://www.linkedin.com/in/junpeng-wang-7321b0382/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
             </div>
         </header>
 
-        <!-- Education -->
-        <section class="card">
-            <h2 class="section-title">Education</h2>
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Duke Kunshan University & Duke University</h3>
-                        <p class="experience-subtitle">B.S. in Applied Mathematics and Computational Sciences / Computer Science</p>
-                        <p class="experience-subtitle">Dual-Degree Undergraduate Program</p>
-                    </div>
-                    <span class="experience-date">Aug 2023 – Jun 2027</span>
-                </div>
-                <p class="experience-detail"><strong>Relevant Coursework:</strong> Multivariable Calculus, Linear Algebra, Probability & Statistics, Discrete Mathematics, Computer Organization and Programming, Data Structures, Data Science Foundations, Machine Learning</p>
-            </div>
+        <!-- About Section -->
+        <section class="section">
+            <h2>About Me</h2>
+            <p>
+                I am an undergraduate student in the Dual-Degree program between Duke Kunshan University and Duke University, 
+                pursuing a B.S. in Applied Mathematics and Computational Sciences with a focus on Computer Science. 
+                My interests lie at the intersection of <strong>Large Language Models (LLMs)</strong> and <strong>Planning</strong>, 
+                exploring how AI systems can better understand, reason, and make decisions in complex environments.
+            </p>
+            <p>
+                Recently, I completed an internship at <strong>Xiaomi's L3 Autonomous Driving team</strong>, where I worked on 
+                planning algorithms and contributed to a POMDP-based framework for navigation under uncertainty. I also work 
+                as a remote research assistant at the <strong>Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology (SIAT)</strong>, 
+                focusing on multimodal large models and instructional video understanding. Additionally, I am actively involved 
+                in the <strong>FrontierCS</strong> project, contributing to the development of evolving AI benchmarks.
+            </p>
         </section>
 
-        <!-- Industry Experience -->
-        <section class="card">
-            <h2 class="section-title">Industry Experience</h2>
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Xiaomi (L3 Autonomous Driving)</h3>
-                        <p class="experience-subtitle">Planning Intern</p>
-                    </div>
-                    <span class="experience-date">May 2025 – Aug 2025</span>
-                </div>
-                <ul class="experience-list">
-                    <li>Contributed to a navigation probabilistic-framework refactor; introduced a <strong>POMDP</strong>-based formulation to better model upstream uncertainty.</li>
-                    <li>Independently designed and implemented cost impacts for <strong>general obstacles</strong> with small lane incursions, integrating into the planning cost pipeline.</li>
-                    <li>Analyzed road-test logs and replay data to diagnose failures; developed and shipped patches for stability in corner cases.</li>
-                    <li>Optimized the cost module via profiling and refactoring to improve runtime efficiency.</li>
-                    <li>Added tracing for key intermediate signals in cost/trajectory modules, accelerating replay-based debugging and failure analysis.</li>
-                </ul>
-            </div>
+        <!-- News Section -->
+        <section class="section">
+            <h2>Recent News</h2>
+            <ul class="news-list">
+                <li><span class="news-date">[Dec 2024]</span> Co-authored paper "FrontierCS: Evolving Challenges for Evolving Intelligence" published on arXiv.</li>
+                <li><span class="news-date">[Nov 2024]</span> Our team received Bronze medal at the 49th ICPC EC Final in Xi'an.</li>
+                <li><span class="news-date">[Aug 2025]</span> Started research position at CAS SIAT, working on multimodal LLMs and video understanding.</li>
+                <li><span class="news-date">[May 2025]</span> Joined Xiaomi's L3 Autonomous Driving team as a Planning Intern.</li>
+            </ul>
         </section>
 
-        <!-- Research Experience -->
-        <section class="card">
-            <h2 class="section-title">Research Experience</h2>
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology (SIAT)</h3>
-                        <p class="experience-subtitle">Remote Research Assistant</p>
-                        <p class="experience-subtitle">Advisor: Bin Li</p>
-                    </div>
-                    <span class="experience-date">Aug 2025 – Present</span>
-                </div>
-                <ul class="experience-list">
-                    <li>Building a benchmark for instructional video understanding focusing on <strong>fine-grained step grounding</strong> and procedural reasoning.</li>
-                    <li>Extending an existing medical instructional dataset with new <strong>general-domain</strong> instructional videos to form a broader evaluation suite (work in progress).</li>
-                    <li>Developing annotation guidelines and quality-control workflow for step boundaries and inter-step relations; preparing evaluation protocols for temporal localization and reasoning.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Publications -->
-        <section class="card">
-            <h2 class="section-title">Publications</h2>
-            <div class="publication-item">
-                <p class="publication-text">
-                    <strong>Qiuyang Mang et al.</strong> "FrontierCS: Evolving Challenges for Evolving Intelligence." 
-                    <em>arXiv:2512.15699</em>, 2025. 
-                    <a href="https://arxiv.org/abs/2512.15699" class="inline-link" target="_blank" rel="noopener">Link</a>
+        <!-- Selected Publications -->
+        <section class="section">
+            <h2>Selected Publications</h2>
+            <div class="publication">
+                <p class="pub-title">FrontierCS: Evolving Challenges for Evolving Intelligence</p>
+                <p class="pub-authors">Qiuyang Mang et al.</p>
+                <p class="pub-venue"><em>arXiv:2512.15699</em>, 2025</p>
+                <p class="pub-links">
+                    <a href="https://arxiv.org/abs/2512.15699" target="_blank">[Paper]</a>
                 </p>
             </div>
         </section>
 
-        <!-- Projects & Campus Activities -->
-        <section class="card">
-            <h2 class="section-title">Projects & Campus Activities</h2>
-            
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Computer Science Lab, Duke Kunshan University</h3>
-                        <p class="experience-subtitle">Research Assistant</p>
-                        <p class="experience-subtitle">Advisor: Ming-Chun Huang</p>
-                    </div>
-                    <span class="experience-date">2024 – 2025</span>
-                </div>
-                <ul class="experience-list">
-                    <li>Contributed to an Android application for a digital-twin platform for health monitoring; maintained and updated a <strong>Flutter/Dart</strong> codebase.</li>
-                    <li>Collaborated on UI features and engineering iterations; continued research work on campus during summer.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Programming Contest Club, Duke Kunshan University</h3>
-                        <p class="experience-subtitle">Events Coordinator</p>
-                    </div>
-                    <span class="experience-date">2024</span>
-                </div>
-                <ul class="experience-list">
-                    <li>Organized and participated in competitive programming training and events; club received <em>The Best Student Club</em> (2023-present).</li>
-                </ul>
-            </div>
-        </section>
-
         <!-- Honors & Awards -->
-        <section class="card">
-            <h2 class="section-title">Honors & Awards</h2>
-            <div class="honors-grid">
-                <div class="honor-item">
-                    <span class="honor-medal gold">Gold</span>
-                    <div class="honor-details">
-                        <p class="honor-title">The 48th ICPC, Nanjing Regional</p>
-                        <p class="honor-year">2023</p>
-                    </div>
-                </div>
-                <div class="honor-item">
-                    <span class="honor-medal silver">Silver</span>
-                    <div class="honor-details">
-                        <p class="honor-title">The 49th ICPC, Nanjing Regional</p>
-                        <p class="honor-year">2024</p>
-                    </div>
-                </div>
-                <div class="honor-item">
-                    <span class="honor-medal bronze">Bronze</span>
-                    <div class="honor-details">
-                        <p class="honor-title">The 49th ICPC, EC Final (Xi'an)</p>
-                        <p class="honor-year">2024</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="card">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-container">
-                <div class="skill-tag">C/C++</div>
-                <div class="skill-tag">Python</div>
-                <div class="skill-tag">Java</div>
-            </div>
+        <section class="section">
+            <h2>Honors & Awards</h2>
+            <ul class="awards-list">
+                <li><strong>Gold Medal</strong>, The 48th ICPC Nanjing Regional (2023)</li>
+                <li><strong>Silver Medal</strong>, The 49th ICPC Nanjing Regional (2024)</li>
+                <li><strong>Bronze Medal</strong>, The 49th ICPC EC Final, Xi'an (2024)</li>
+            </ul>
         </section>
 
         <!-- Footer -->
         <footer class="footer">
-            <p>&copy; 2026 Junpeng Wang. All rights reserved.</p>
+            <p>© 2026 Junpeng Wang</p>
         </footer>
     </div>
 </body>
 </html>
-
